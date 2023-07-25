@@ -80,3 +80,21 @@ Big-O Notations for Arrays in JS
     shift / unshift / concat / slice / splice -> O(n)
     forEach / map / filter / reduce - O(n)
     
+
+Recursion:
+
+    What ?
+        Recursion is a problem solving technique where the solution depends on solutions to the smaller instances of the same problem.
+
+        Shortly, Recursion is when a function calls itself
+
+    Why ?
+        A great technique to simplify our solution.
+
+        Recursion is very useful when we are able to breakdown our problem into smaller versions of the same problem.
+
+Few points to take care about the recursion :
+    # Every recursive solution needs to have a base case - a condition to terminate the recursion.
+    # Recusrsion might simplyfy solving a problem but it does not always translate to a faster solution. A recursive solution may be far worse compared to an iterative solution.
+    # Recursion is a topic that is not the most straight forward to understand. but do not give up if you struggle.
+    
