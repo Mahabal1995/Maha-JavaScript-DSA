@@ -1,0 +1,82 @@
+Algorithm :
+
+An algorithm is a set of well-defined instructions to solve a particular problem
+
+Characteristics :
+
+1. well defined inputs and outputs
+2. Each step should be clear and unambiguous
+3. Languages independent
+
+Why do we need Algorithms ?
+
+# As a developer, we are going to come accross problems
+# Learning algorithms translates to learning different techniques to efficiently solve those problems
+# One proble can be solved in many ways using different algorithms
+# Every algorithm comes with its own trade-offs when it come to performance
+
+How to analyse algorithms ?
+
+The efficiency of algorithms depends on following factors :
+
+# Programming language
+# The machine that it runs on
+# Other prigrams that runs on the machine
+# Quality of the OS 
+
+
+Mostly the performance of algorithms are analysed in terms of input size
+
+-> Time complexity : Amount of time taken to run, as a function of input size.
+-> Space complexity : Amount of memory taken to run, as a function of input size.
+
+How to represent complexity ?
+
+-> Asymptotic notations : Mathematical tools to represent time and space complexity
+
+        1. Big-O Notation (O) -> Worst case complexity
+        2. Omega Notation (Ω) -> Best case complexity
+        3. Theta Notation (θ) -> Average case complexity
+
+Big-O Notation 
+
+    The worst case complexity of an algorithm is represented using the Big-O notation
+
+    Big0O notation describes the complexity of an algorithm using algbraic terms
+
+    it has two importan characteristcs 
+        # it is expressed in terms of the input
+        # it focuses on the bigger picture without caught up in the minute details
+
+    Different kinds of Time/Space complexities :
+
+    O(1)        -> Constant
+    O(n)        -> Linear
+    O(n^2)      -> Quadratic
+    O(n^3)      -> Cubic
+    O(log n)    -> Logarithmic
+
+Big-O Notations for Objects in JS
+
+An object is a collection of key value pairs
+
+    insert -> O(1)
+    remove -> O(1)
+    access -> O(1)
+    search -> O(n)
+
+    Object.keys() -> O(n)
+    Object.values() -> O(n)
+    Object.entries() -> O(n)
+
+Big-O Notations for Arrays in JS
+    An array is an ordered collection of values
+
+    insert/remove at end -> O(1)
+    insert/remove at beginning -> O(n)
+    access -> O(1)
+    search -> O(n)
+
+    shift / unshift / concat / slice / splice -> O(n)
+    forEach / map / filter / reduce - O(n)
+    
