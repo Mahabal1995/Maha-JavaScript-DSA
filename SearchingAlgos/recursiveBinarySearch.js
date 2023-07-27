@@ -21,3 +21,6 @@ const array = [1, 2, 3, 4, 10]; // always this should be sorted
 console.log(recursiveBinarySearch(array, 10));
 console.log(recursiveBinarySearch(array, 3));
 console.log(recursiveBinarySearch(array, 2));
+
+// Time complexity
+// O(log n) => logarithmic time complexity

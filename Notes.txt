@@ -98,3 +98,7 @@ Few points to take care about the recursion :
     # Recusrsion might simplyfy solving a problem but it does not always translate to a faster solution. A recursive solution may be far worse compared to an iterative solution.
     # Recursion is a topic that is not the most straight forward to understand. but do not give up if you struggle.
     
+Tips for recusive solitions :
+
+    # Figure out how to break down the problem into smaller versions of the same problem
+    # Identify the base case for recursion
